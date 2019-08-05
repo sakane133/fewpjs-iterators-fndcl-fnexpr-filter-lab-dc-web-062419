@@ -2,8 +2,8 @@
 
 
 function findMatching(arr, string){
-  return arr.filter(str.downcase => {
+  let x = arr.filter(str.downcase => {
     return  str === string.downcase
   })
-  
+  return x
 }
